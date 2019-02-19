@@ -36,7 +36,7 @@ npm install --save-dev @gridsome/source-filesystem @gridsome/transformer-remark
 
 Then we need to update our gridsome.config.js. Add the following to your module.export
 
-```
+```javascript
 transformers: {
     remark: {}
   },

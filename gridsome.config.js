@@ -9,7 +9,12 @@ module.exports = {
   siteUrl: "seankung.us",
   siteDescription: "My blog in Vue.js",
   transformers: {
-    remark: {}
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      anchorClassName: 'icon icon-link',
+      plugins: []
+    }
   },
   plugins: [
     {

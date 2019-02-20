@@ -2,6 +2,7 @@
 slug: gridsome-post
 title: Gridsome
 date: 2019-02-18
+image: "./images/favicon.png"
 ---
 
 # Gridsome and then some

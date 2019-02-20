@@ -1,11 +1,9 @@
 <template>
   <Layout>
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Welcome to my Vue Blog</h1>
-
-    <p>
-      This is an experiment in rebuilding my blog in Vue with Gridsome.
+    <p v-for="post in $page.posts.edges">
+      <g-link :to="post.node.path">
+        {{ post.node.title }}
+      </g-link>
     </p>
   </Layout>
 </template>
@@ -31,17 +29,5 @@ query Posts ($page: Int) {
 </page-query>
 
 <script>
-  import { Pager } from "gridsome";
 
-  export default {
-    components: {
-      Pager
-    }
-  };
 </script>
-
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>

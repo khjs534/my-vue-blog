@@ -1,8 +1,8 @@
 ---
 slug: safebox-post
 title: "Safebox: Experiments in IoT"
-date: 2019-02-11 15:48 UTC
-image: "./images/safebox.jpg"
+date: 2019-02-11
+image: "./images/safebox.png"
 ---
 ## Safebox
 

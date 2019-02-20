@@ -12,7 +12,7 @@ query Post ($path: String!) {
     title
     date (format: "D MMMM, YYYY")
     content
-    image (width: 200, height: 200)
+    image (width: 250, height: 250)
   }
 }
 </page-query>
